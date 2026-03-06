@@ -1,0 +1,9 @@
+# Keep this repository focused on the extracted skill files.
+*
+!/.gitignore
+!/README.md
+!/SKILL.md
+!/references/
+!/references/**
+!/scripts/
+!/scripts/**
