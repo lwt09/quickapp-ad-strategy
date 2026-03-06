@@ -57,7 +57,13 @@ node scripts/reverse_project.js .
 
 ## 作为独立仓库管理
 
-该目录就是 skill 源仓库；需要在 Codex 中使用时，可将整个仓库链接或复制到 `.codex/skills/quickapp-ad-strategy/`。
+该目录就是 skill 源仓库。常见安装方式如下：
+
+```bash
+git clone https://github.com/lwt09/quickapp-ad-strategy.git "${CODEX_HOME:-$HOME/.codex}/skills/quickapp-ad-strategy"
+```
+
+如果需要边开发边使用，也可以把仓库软链接到 `.codex/skills/quickapp-ad-strategy/`。
 
 ## 关键约束
 
